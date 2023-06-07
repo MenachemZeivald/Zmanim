@@ -1,4 +1,4 @@
-let fields = ['Parasha', 'HadlakatNerotNextShabbat', 'MotzeyShabatNextShabbat'];
+let fields = ['Parasha', 'HadlakatNerotNextShabbat', 'MotzeyShabatNextShabbat', 'HebrewDate'];
 let hebFields = ['', 'הדלקת נרות', 'צאת שבת'];
 
 let mainDiv = document.querySelector('.main-div');
