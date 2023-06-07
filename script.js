@@ -56,13 +56,13 @@ function createPage() {
 	for (let i = 0; i < fields.length; i++) {
 		let div = document.createElement('div');
 		div.className = 'data-container ' + fields[i];
-		let name = document.createElement('div');
-		name.innerText = hebFields[i];
+		// let name = document.createElement('div');
+		// name.innerText = hebFields[i];
 		let value = document.createElement('div');
 		let temp = data[fields[i]];
 		if (temp.match('^([0-9]{2}/){2}[0-9]{4}')) temp = temp.slice(10);
 		value.innerText = temp;
-		div.appendChild(name);
+		// div.appendChild(name);
 		div.appendChild(value);
 		mainDiv.appendChild(div);
 	}
